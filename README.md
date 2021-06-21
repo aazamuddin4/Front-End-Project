@@ -1,2 +1,8 @@
 # Front-End-Project
-Using only html, html5 and css
+Using html, html5, css and JavaScript
+#Text Editor used:
+  **visual studio code**
+#Project list 
+- [x] HTML, HTML5
+- [x] CSS
+- [ ] JavaScript
