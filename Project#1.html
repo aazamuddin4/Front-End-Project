@@ -1,0 +1,88 @@
+<header>
+  <div class="text-box">
+    <h1 id="title">Manage Your Finance</h1><hr>
+      <p id="description">Tell us about your expenses</p>
+  </div>
+</header>
+    <div class="container">
+      <form id="survey-form" method="GET">
+
+         <div class="labels">
+          <label id="name-label" for="name">* Full Name</label></div>
+        <div class="input-tab">
+          <input class="input-field" type="text" id="name" name="name" placeholder="Enter your name" required autofocus></div>
+
+         <div class="labels">
+          <label id="email-label" for="email">* Email</label></div>
+        <div class="input-tab">
+          <input class="input-field" type="email" id="email" name="email" placeholder="email@email.com" required></div>
+        
+         <div class="labels">
+          <label id="number-label" for="number">* Age</label></div>
+        <div class="input-tab">
+          <input class="input-field" type="number" id="number" name="number" min="1" max="100" placeholder="15" required></div>
+
+          
+         <div class="labels">
+          <label for="dropdown">What is your monthly income</label></div>
+        <div class="input-tab">
+          <select id="dropdown" name="site">
+            <option disabled value selected>Select an option</option>
+            <option value="minimum">RM1,000-RM1,499</option>
+            <option value="lowest">RM1,500-RM1,999</option>
+            <option value="very low">RM2,000-RM2,499</option>
+            <option value="low">RM2,500-RM2,999</option>
+            <option value="medium">RM3,000-RM3,499</option>
+            <option value="high">RM3,500-RM3,999</option>
+            <option value="very high">RM4,000-RM4,499</option>
+            <option value="highest">RM4,500-RM4,999</option>
+            <option value="maximum">RM5,000+</option>
+          </select>
+          </div>
+        
+        <div class="labels">
+          <label>What things would you spend most per month<br> (You may choose more than 1): </label></div>
+        <div class="input-tab">
+            <input type="checkbox" name="checkbox-button" value="love">Food<br>
+            <input type="checkbox" name="checkbox-button" value="like">Groceries<br>
+            <input type="checkbox" name="checkbox-button" value="ok">Taxes<br>
+            <input type="checkbox" name="checkbox-button" value="love">EPF and SOCSO<br>
+            <input type="checkbox" name="checkbox-button" value="like">Cars/Motorcyle<br>
+            <input type="checkbox" name="checkbox-button" value="ok">House<br>
+            <input type="checkbox" name="checkbox-button" value="nah">Loans<br> <input type="checkbox" name="checkbox-button" value="nah">Others<br>
+        </div>
+        
+        <div class="labels">
+          <label for="dropdown">How much would you spend from above list<br></label></div>
+        <div class="input-tab">
+          <select id="dropdown" name="seasons">
+            <option disabled value selected>Select an option</option>
+            <option value="<=5">RM800-RM1,599</option>
+            <option value="<=10">RM1,600-RM2,399</option>
+            <option value="<=15">RM2,400-RM3,199</option>
+            <option value="<=21">RM3,200+</option>
+          </select>
+        </div>
+        
+        <div class="labels">
+          <label>Does your finance stable</label></div>
+        <div class="input-tab">
+            <input type="radio" name="radio-button" value="love">I'm so satisfied<br>
+            <input type="radio" name="radio-button" value="like">Meh..<br>
+            <input type="radio" name="radio-button" value="ok">I may survive<br>
+            <input type="radio" name="radio-button" value="nah">It's hard to be alive right now<br>
+        </div>  
+        
+        <div class="labels">
+          <label for="comments">Tell us more about your finance</label></div>
+        <div class="input-tab">
+          <textarea class="input-field" id="comments" name="comments" rows="10" cols="40" placeholder="Your comments..."></textarea></div>
+        
+        <div class="btn">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+      <p>&copy 2020 Azamuddin</a></p>
+</footer>
