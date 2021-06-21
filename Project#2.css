@@ -1,0 +1,46 @@
+#main{
+    background-color: grey;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHGBcpcShLrO4vqb0aR7tjC3GxLJy5wQINAw&usqp=CAUg");
+    padding: 10px 20px 10px 10px;
+    margin: 20px 10px 10px 20px;
+  
+  }
+  #title {
+    text-align: center;
+  }
+  h5{
+    text-align: center;
+  }
+  #img-div{
+    max-width: 100%
+    height: auto;
+  }
+  #description {
+    
+    color: black;
+    text-align: center;
+    background-color: gray;
+    font-family: serif;
+  }
+  
+    img {
+      width:870px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  
+  }
+  p {
+   
+    font-family: san-serif;
+    border-bottom: 1px solid black;
+  }
+  #love{
+    text-align: center;
+  }
+  #img-caption{
+    text-align: center;
+    color: black;
+  }
